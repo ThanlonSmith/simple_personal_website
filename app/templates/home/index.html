@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>我的主页 | 个人简介 | 工作日常 | 业余生活 | 生活语录 | 给我留言</title>
+    <link rel="shortcut icon" href="http://47.102.145.225/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="http://47.102.145.225/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="http://47.102.145.225/css/style.css" rel="stylesheet">
+    <link href="http://47.102.145.225/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+<div class="page-wrapper default-version">
+    <div class="preloader"></div>
+    <div class="page-background">
+        <div class="image-1"><img src="http://47.102.145.225/images/icons/shape/icon-1.png" alt=""></div>
+        <div class="image-7"><img src="http://47.102.145.225/images/icons/shape/icon-7.png" alt=""></div>
+        <canvas id="canvas"></canvas>
+    </div>
+    <div class="mobile-menu">
+        <div class="container">
+            <div class="nav-outer clearfix">
+                <div class="logo"><a href="">
+                    <img src="http://47.102.145.225/images/home2.png" alt="" style="height:30px"></a>
+                </div>
+                <nav class="main-menu">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse scroll-nav clearfix">
+                        <ul class="navigation clearfix">
+                            <li class="current"><a href="#home">我的主页</a></li>
+                            <li><a href="#about">个人简介</a></li>
+                            <li><a href="#work">工作日常</a></li>
+                            <li><a href="#blog">业余生活</a></li>
+                            <li><a href="#work">生活语录</a></li>
+                            <li><a href="#contact">给我留言</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="card-outer">
+        <div class="scroll-box">
+            <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+                <div class="card-wrapper">
+                    <div class="author-info"
+                         style="background-image:url(http://47.102.145.225/images/background/3.jpg)">
+                        <div class="image">
+                            <img src="http://47.102.145.225/images/thanlon.png" alt="">
+                        </div>
+                        <div class="author"><h3>奈何</h3>
+                            <div class="designation">我是一名
+                                <div class="typing-title">
+                                    <p><strong>Python工程师。</strong></p>
+                                    <p><strong>软件设计师。</strong></p>
+                                    <p><strong>Web后端开发工程师。</strong></p>
+                                </div>
+                                <span class="typed-title"></span>
+                            </div>
+                        </div>
+                        <!--                        <div class="link-btn">-->
+                        <!--                            <a href="http://www.bootstrapmb.com/" class="theme-btn btn-style-one">下载简历</a>-->
+                        <!--                        </div>-->
+                        <ul class="social-icon-two">
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                            <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="card-inner-box">
+                        <header class="header wow fadeInLeft" data-wow-duration="1.5s">
+                            <ul class="main-menu">
+                                <li class="active home">
+                                    <a class="logo" href="#home">
+                                        <img src="http://47.102.145.225/images/favicon.png" alt="" style="width:40px">
+                                    </a>
+                                </li>
+                                <li><a href="#about"><i class="glyphicon glyphicon-home"></i>我的主页</a></li>
+                                <li><a href="#resume"><i class="glyphicon glyphicon-user"></i>个人简介</a></li>
+                                <li><a href="#services"><i class="glyphicon glyphicon-tasks"></i>工作日常</a></li>
+                                <li><a href="#work"><i class="glyphicon glyphicon-headphones"></i>业余生活</a></li>
+                                <li><a href="#blog"><i class="glyphicon glyphicon-book"></i>生活语录</a></li>
+                                <li><a href="#contact"><i class="glyphicon glyphicon-envelope"></i>给我留言</a></li>
+                            </ul>
+                        </header><!-- card item -->
+                        <div class="card-home card-item active" id="home"
+                             style="background-image:url(http://47.102.145.225/images/background/1.jpg)">
+                            <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                                <div class="image"><img src="http://47.102.145.225/images/thanlon.png" alt=""></div>
+                                <div class="author"><h3>奈何</h3>
+                                    <div class="designation">我是一名
+                                        <div class="typing-title">
+                                            <!--                                            <p>a <strong>web developer.</strong></p>-->
+                                            <!--                                            <p>a <strong>web Designer.</strong></p>-->
+                                            <!--                                            <p>a <strong>photographer.</strong></p>-->
+                                        </div>
+                                        <span class="typed-title"></span></div>
+                                </div>
+                                <div class="text">
+                                    骓不逝兮可奈何，
+                                    虞兮虞兮奈若何！
+                                </div>
+                                <div class="link-btn">
+                                    <a href="https://blog.csdn.net/Thanlon" target="_blank"
+                                       class="theme-btn btn-style-one">CSDN技术博客</a>
+                                    <a href="#" class="theme-btn btn-style-two">本站蓝图</a>
+                                    <a href="#" class="theme-btn btn-style-one">技术咨询</a>
+                                </div>
+                                <ul class="social-icon-two">
+                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                                </ul>
+                            </div>
+                        </div><!-- end item --><!-- card item -->
+                        <div class="card-about card-item" id="about"
+                             style="background-image:url(http://47.102.145.225/images/background/2.jpg)">
+                            <div class="card-inner"><h4 class="title">关于我</h4>
+                                <!--                                <div class="text">-->
+                                <!--                                </div>-->
+                                <div class="info-list">
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                            <ul class="list-style-one">
+                                                <li><strong>姓名:</strong> 奈何</li>
+                                                <li><strong>电话:</strong> 185-1215-2005</li>
+                                                <li><strong>公司:</strong> 讯投上海分公司</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <ul class="list-style-one">
+                                                <li><strong>电子邮箱:</strong> thanlon@sina.com</li>
+                                                <li><strong>地址:</strong> 中国上海市浦东新区</li>
+                                                <!--                                                <li><strong>爱好:</strong> 吉他 舞蹈 羽毛球 乒乓球</li>-->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="title">技能</h4>
+                                <div class="row"><!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer"><input type="text" class="dial"
+                                                                            data-fgColor="#9147ff"
+                                                                            data-bgColor="#f5f5f5" data-width="90"
+                                                                            data-height="90" data-linecap="normal"
+                                                                            value="85">
+                                                <div class="inner-text count-box"><span class="count-text"
+                                                                                        data-stop="85"
+                                                                                        data-speed="2000"></span>%
+                                                </div>
+                                            </div>
+                                            <h3>Python</h3></div>
+                                    </div><!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer"><input type="text" class="dial"
+                                                                            data-fgColor="#ff5e7e"
+                                                                            data-bgColor="#f5f5f5" data-width="90"
+                                                                            data-height="90" data-linecap="normal"
+                                                                            value="75">
+                                                <div class="inner-text count-box"><span class="count-text"
+                                                                                        data-stop="75"
+                                                                                        data-speed="2000"></span>%
+                                                </div>
+                                            </div>
+                                            <h3>Algorithm</h3>
+                                        </div>
+                                    </div><!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer"><input type="text" class="dial"
+                                                                            data-fgColor="#ffc713"
+                                                                            data-bgColor="#f5f5f5" data-width="90"
+                                                                            data-height="90" data-linecap="normal"
+                                                                            value="75">
+                                                <div class="inner-text count-box"><span class="count-text"
+                                                                                        data-stop="75"
+                                                                                        data-speed="2000"></span>%
+                                                </div>
+                                            </div>
+                                            <h3>Machine Learning</h3></div>
+                                    </div><!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer"><input type="text" class="dial"
+                                                                            data-fgColor="#51dbc3"
+                                                                            data-bgColor="#f5f5f5" data-width="90"
+                                                                            data-height="90" data-linecap="normal"
+                                                                            value="80">
+                                                <div class="inner-text count-box"><span class="count-text"
+                                                                                        data-stop="80"
+                                                                                        data-speed="2000"></span>%
+                                                </div>
+                                            </div>
+                                            <h3>Vue</h3></div>
+                                    </div>
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer"><input type="text" class="dial"
+                                                                            data-fgColor="red"
+                                                                            data-bgColor="#f5f5f5" data-width="90"
+                                                                            data-height="90" data-linecap="normal"
+                                                                            value="80">
+                                                <div class="inner-text count-box"><span class="count-text"
+                                                                                        data-stop="80"
+                                                                                        data-speed="2000"></span>%
+                                                </div>
+                                            </div>
+                                            <h3>Flask</h3></div>
+                                    </div>
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer"><input type="text" class="dial"
+                                                                            data-fgColor="blue"
+                                                                            data-bgColor="#f5f5f5" data-width="90"
+                                                                            data-height="90" data-linecap="normal"
+                                                                            value="80">
+                                                <div class="inner-text count-box"><span class="count-text"
+                                                                                        data-stop="80"
+                                                                                        data-speed="2000"></span>%
+                                                </div>
+                                            </div>
+                                            <h3>Django</h3></div>
+                                    </div>
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer"><input type="text" class="dial"
+                                                                            data-fgColor="green"
+                                                                            data-bgColor="#f5f5f5" data-width="90"
+                                                                            data-height="90" data-linecap="normal"
+                                                                            value="80">
+                                                <div class="inner-text count-box"><span class="count-text"
+                                                                                        data-stop="80"
+                                                                                        data-speed="2000"></span>%
+                                                </div>
+                                            </div>
+                                            <h3>Linux</h3></div>
+                                    </div>
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer"><input type="text" class="dial"
+                                                                            data-fgColor="#292e44"
+                                                                            data-bgColor="#f5f5f5" data-width="90"
+                                                                            data-height="90" data-linecap="normal"
+                                                                            value="70">
+                                                <div class="inner-text count-box"><span class="count-text"
+                                                                                        data-stop="70"
+                                                                                        data-speed="2000"></span>%
+                                                </div>
+                                            </div>
+                                            <h3>Jenkins</h3>
+                                        </div>
+                                    </div>
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer"><input type="text" class="dial"
+                                                                            data-fgColor="yellow"
+                                                                            data-bgColor="#f5f5f5" data-width="90"
+                                                                            data-height="90" data-linecap="normal"
+                                                                            value="70">
+                                                <div class="inner-text count-box"><span class="count-text"
+                                                                                        data-stop="70"
+                                                                                        data-speed="2000"></span>%
+                                                </div>
+                                            </div>
+                                            <h3>Kubernetes</h3></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end item --><!-- card item -->
+                        <div class="card-resume card-item" id="resume"
+                             style="background-image:url(http://47.102.145.225/images/background/2.jpg)">
+                            <div class="card-inner"><h4 class="title" style="margin-top:-6px">个人简介</h4>
+                            </div>
+                        </div>
+                        <div class="card-services card-item" id="services"
+                             style="background-image:url(http://47.102.145.225/images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title" style="margin-top:-6px">工作日常</h4>
+                                <h5 style="padding-bottom: 20px;">图片</h5>
+                                <div class="row">
+
+                                    <!--                                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0"-->
+                                    <!--                                            width=100% height=86-->
+                                    <!--                                            src="http://music.163.com/outchain/player?type=2&id=135768&auto=0&height=66"></iframe>-->
+                                    <div class="projects-block col-md-4">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="http://47.102.145.225/images/thanlon.png" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here"
+                                                       data-fancybox-group="example-gallery"
+                                                       href="http://47.102.145.225/images/thanlon.png">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="">办公室日常</a></h3>
+                                                <span>轻松愉悦的办公环境</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5 style="padding-bottom: 20px;">视频</h5>
+                                <div class="row">
+                                    <div class="projects-block col-md-4">
+                                        <div class="inner-box">
+                                            <video src="https://www.w3school.com.cn/i/movie.ogg" controls="controls"
+                                                   class="col-md-12" style="padding:0"></video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end item --><!-- card item -->
+                        <div class="card-services card-item" id="work"
+                             style="background-image:url(http://47.102.145.225/images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title" style="margin-top:-6px">业余生活</h4>
+                                <h5 style="padding-bottom: 20px;">图片</h5>
+                                <div class="row">
+                                    <div class="projects-block col-md-4">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="http://47.102.145.225/images/thanlon.png" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here"
+                                                       data-fancybox-group="example-gallery"
+                                                       href="http://47.102.145.225/images/thanlon.png">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="">办公室日常</a></h3>
+                                                <span>轻松愉悦的办公环境</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5 style="padding-bottom: 20px;">视频</h5>
+                                <div class="row">
+                                    <div class="projects-block col-md-4">
+                                        <div class="inner-box">
+                                            <video src="https://www.w3school.com.cn/i/movie.ogg" controls="controls"
+                                                   class="col-md-12" style="padding:0"></video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end item --><!-- card item -->
+                        <div class="card-blog card-item" id="blog"
+                             style="background-image:url(http://47.102.145.225/images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title" style="margin-top:-6px">生活语录</h4>
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="image"><img src="http://47.102.145.225/images/resource/blog-1.jpg"
+                                                                alt="">
+                                            <div class="overlay"><a class="link-btn" href="blog-single.html"><i
+                                                    class="fa fa-link"></i></a></div>
+                                        </div>
+                                        <div class="date"><strong>04</strong><br>March</div>
+                                        <div class="lower-content">
+                                            <h4><a href="blog-single.html">真正的英雄是那些看清生活真相却依然热爱生活的人！</a></h4>
+                                            <!--                                            <div class="post-meta">by admin / <span>Design</span></div>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="image"><img
+                                                src="http://47.102.145.225/images/resource/blog-2.jpg"
+                                                alt="">
+                                            <div class="overlay"><a class="link-btn" href="blog-single.html"><i
+                                                    class="fa fa-link"></i></a></div>
+                                        </div>
+                                        <div class="date"><strong>03</strong><br>March</div>
+                                        <div class="lower-content">
+                                            <h4><a href="blog-single.html">纪念那个时候的我们天真无邪！</a></h4>
+                                            <!--                                            <div class="post-meta">by admin / <span>Design</span></div>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="image"><img
+                                                src="http://47.102.145.225/images/resource/blog-3.jpg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <a class="link-btn" href="blog-single.html">
+                                                    <i class="fa fa-link"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="date"><strong>02</strong><br>March</div>
+                                        <div class="lower-content">
+                                            <h4><a href="blog-single.html">这辈子最后悔的事情就是没有好好在乎你！</a></h4>
+                                            <!--                                            <div class="post-meta">by admin / <span>Design</span></div>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-contact card-item" id="contact"
+                             style="background-image:url(http://47.102.145.225/images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h3 class="title" style="margin-top:-6px">给我留言</h3>
+                                <!--                                <h4>留言</h4>-->
+                                <div class="contact-form">
+                                    <form method="post" action="" id="contact-form">
+                                        <div class="row clearfix">
+                                            <div class="col-md-6 form-group">
+                                                <input type="text" name="username" placeholder="请输入姓名！" required>
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                                <input type="email" name="email" placeholder="请输入邮箱！" required>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 form-group">
+                                                <textarea name="message" placeholder="请输入留言内容！"></textarea>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 form-group">
+                                                <button class="theme-btn btn-style-one" type="submit"
+                                                        name="submit-form">留言
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="padding:15px 0 0 0;color:#c1c1c1;font-weight:bold;text-align:center">Copyright © 2019-2020
+                www.thanlon.cn. All Rights Reserved.</p>
+        </div>
+    </div>
+</div><!--End pagewrapper-->
+<script src="http://47.102.145.225/js/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="http://47.102.145.225/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="http://47.102.145.225/js/owl.js"></script>
+<script src="http://47.102.145.225/js/wow.js"></script>
+<script src="http://47.102.145.225/js/appear.js"></script>
+<script src="http://47.102.145.225/js/jquery.fancybox.js"></script>
+<script src="http://47.102.145.225/js/element-in-view.js"></script>
+<script src="http://47.102.145.225/js/knob.js"></script>
+<script src="http://47.102.145.225/js/validate.js"></script>
+<script src="http://47.102.145.225/js/mousemoveparallax.js"></script>
+<script src="http://47.102.145.225/js/pagenav.js"></script>
+<script src="http://47.102.145.225/js/jquery-type.js"></script>
+<script src="http://47.102.145.225/js/jquery.nicescroll.min.js"></script>
+<script src="http://47.102.145.225/js/particle-alone.js"></script>
+<script src="http://47.102.145.225/js/script.js"></script>
+</body>
+</html>

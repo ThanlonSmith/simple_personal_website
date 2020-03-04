@@ -5,3 +5,6 @@
 # @Email   : thanlon@sina.com
 # @File    : __init__.py
 # @Software: PyCharm
+from flask import Blueprint
+
+admin_bp = Blueprint('admin', __name__,url_prefix='/admin')

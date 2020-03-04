@@ -5,3 +5,7 @@
 # @Email   : thanlon@sina.com
 # @File    : __init__.py
 # @Software: PyCharm
+from flask import Blueprint
+
+home_bp = Blueprint('home', __name__)
+from .views import index
