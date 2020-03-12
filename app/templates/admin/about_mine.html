@@ -1,0 +1,32 @@
+{% extends 'admin/layout.html' %}
+{% block css%}
+{% endblock %}
+{% block content %}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            关于我的
+<!--            <small>控制面板</small>-->
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> </a>主页管理</li>
+            <li class="active">关于我的</li>
+        </ol>
+    </section>
+    <section class="col-lg-6 connectedSortable">
+        <div class="row">
+
+        </div>
+    </section>
+</div>
+{% endblock %}
+{% block js %}
+<script>
+ $(document).ready(function(){
+ $('#main_page').addClass('active');
+ $('#about_mine').addClass('active');
+});
+</script>
+{% endblock %}

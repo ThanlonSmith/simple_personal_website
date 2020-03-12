@@ -7,5 +7,6 @@
 # @Software: PyCharm
 from flask import Blueprint
 
-admin_bp = Blueprint('admin', __name__,url_prefix='/admin')
-from .views import index
+admin_bp = Blueprint('admin', __name__, url_prefix='/admin')
+from .views import index, about_mine, professional_skills, personal_profile, life_quotes, messages, pic_manage_work, \
+    video_manage_work, pic_manage_amateur, video_manage_amateur
